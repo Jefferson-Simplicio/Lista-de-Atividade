@@ -1,3 +1,6 @@
+/*
+ * Soma números impares
+ */
 public class exer4 {
 
     public static void main(String[] args) {
