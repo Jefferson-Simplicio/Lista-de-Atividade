@@ -1,6 +1,6 @@
 /*
-*Soma dos valores de um trapézio, HIPOTENUSA
-*/
+ * Calcular área do trapézio
+ */
 import java.util.Scanner;
 
 public class exer1 {

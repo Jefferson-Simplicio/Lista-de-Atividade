@@ -1,21 +1,23 @@
-import java.util.Scanner;
-
+/*
+ * operações lógicas
+ */
 public class exer3 {
 
     public static void main(String[] args) {
-        float h, b, B, area;
-        int areaA;
-        Scanner ler = new Scanner(System.in);
-        System.out.println("Informe o valor da altura do trapézio(cm²): ");
-        h = ler.nextFloat();
-        System.out.println("Informe o valor da menor base do trapézio(cm²):");
-        b = ler.nextFloat();
-        System.out.println("Informe o valor da maior base do trapézio(cm²): ");
-        B = ler.nextFloat();
-        area = (h * (b + B)) / 2;
-        areaA = Math.round(area) * 100 / 100;
-        System.out.println("A área do trapézio é de " + area + " cm²");
-        System.out.println("A área do trapézio arredondada é de" + areaA + " cm²");
+        int a, b;
+        float c, d;
+        System.out.println("Solução para as seguintes operações: ");
+        System.out.println("A) 3-2-1+2+3");
+        System.out.println("B) (2*4) - (4*5)");
+        System.out.println("C) 2+6-3 / (7*9)");
+        System.out.println("D) (3%4) - 8");
+        a = 3 - 2 - 1 + 2 + 3;
+        b = (2 * 4) - (4 * 5);
+        c = 2 + 6 - 3 / (7 * 9);
+        d = (3 % 4) - 8;
+        System.out.println("Resultado A: " + a);
+        System.out.println("Resultado B: " + b);
+        System.out.println("Resultado C: " + c);
+        System.out.println("Resultado D: " + d);
     }
-
 }
