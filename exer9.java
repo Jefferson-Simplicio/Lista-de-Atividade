@@ -1,4 +1,6 @@
-package exe9;
+/*
+* Média com OptionPane
+*/
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
