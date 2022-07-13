@@ -1,6 +1,6 @@
-package ExerciciosJava;
 
-public class exe2 {
+
+public class exer2 {
 
     public static void main(String[] args) {
         int a, b;
