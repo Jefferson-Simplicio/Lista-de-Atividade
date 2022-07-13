@@ -1,5 +1,6 @@
-
-
+/*
+*Soma dos valores de um trapézio, HIPOTENUSA
+*/
 import java.util.Scanner;
 
 public class exer1 {
