@@ -1,6 +1,5 @@
-package ExerciciosJava;
 
-public class exe3 {
+public class exer3 {
     public static void main(String[] args) {
         boolean sit;
         int i = 0;
